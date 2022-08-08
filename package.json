@@ -1,0 +1,41 @@
+{
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/material": "^5.9.3",
+    "@sanity/cli": "^2.30.2",
+    "@sanity/client": "^3.3.2",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.32.0",
+    "@types/react": "^18.0.16",
+    "@types/react-dom": "^18.0.6",
+    "canvas-confetti": "^1.5.1",
+    "framer-motion": "^7.0.0",
+    "init": "^0.1.2",
+    "next": "12.2.2",
+    "next-sanity": "^0.6.0",
+    "npm": "^8.16.0",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-particles-js": "^3.6.0",
+    "sanity": "^2.29.3",
+    "stripe": "^9.14.0",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
