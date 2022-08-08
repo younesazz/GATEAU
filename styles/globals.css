@@ -140,7 +140,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./bg.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
