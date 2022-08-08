@@ -1017,5 +1017,8 @@ margin-top: 160px;
   .p-text{
     font-size: 14px;
   }
+  .products-container{
+    margin-left: 20px;
+  }
 }
 
