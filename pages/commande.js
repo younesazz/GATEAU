@@ -65,6 +65,11 @@ export default function Checkout() {
         </h3>
       </div>
     )}
+    <MessengerCustomerChat
+      pageId="103101619173835"
+      appId="1426751180893639"
+      themeColor='#32ccec'
+    />
   </div>
   );
 }
