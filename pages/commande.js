@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { client } from '../lib/client';
+import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
+
 
 export default function Checkout() {
 
