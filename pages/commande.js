@@ -43,7 +43,7 @@ export default function Checkout() {
       </div>
       <div className="app__footer-card">
         <img src='./mobile.png' alt="phone" />
-        <a href="tel:+213 0697600642" className="p-text">+213 0697600642</a>
+        <a href="tel:+213 0666661899" className="p-text">+213 0666661899</a>
       </div>
     </div>
     {!isFormSubmitted ? (
