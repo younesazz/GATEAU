@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { client } from '../lib/client';
-import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 
 
 export default function Checkout() {
@@ -67,11 +66,6 @@ export default function Checkout() {
         </h3>
       </div>
     )}
-    <MessengerCustomerChat
-      pageId="103101619173835"
-      appId="1426751180893639"
-      themeColor='#32ccec'
-    />
   </div>
   );
 }
