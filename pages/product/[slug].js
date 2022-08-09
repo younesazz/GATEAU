@@ -3,7 +3,6 @@ import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-
 
 import { client, urlFor } from '../../lib/client';
 import { Product } from '../../components';
-import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 
 import { useStateContext } from '../../context/StateContext';
 
@@ -80,11 +79,6 @@ const ProductDetails = ({ product, products }) => {
             </div>
           </div>
       </div>
-      <MessengerCustomerChat
-            pageId="103101619173835"
-            appId="1426751180893639"
-            themeColor='#32ccec'
-       />
     </div>
   )
 }
