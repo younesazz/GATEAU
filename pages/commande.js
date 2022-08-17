@@ -35,7 +35,10 @@ export default function Checkout() {
 
   return (
     <div className='cmd'>
-
+      <Head>
+        <title>Lee Gâteau Parfait</title>
+        <link rel="icon" href="../public/gateau.png" />
+      </Head>
     <div className="app__footer-cards">
 
       <div className="app__footer-card ">
