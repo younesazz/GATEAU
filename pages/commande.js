@@ -57,7 +57,7 @@ export default function Checkout() {
           <input className="p-text" type="text" placeholder="Nom et Prénom" name="username" value={username} onChange={handleChangeInput} />
         </div>
         <div className="app__flex">
-          <input className="p-text" type="text" placeholder="Téléphone" name="telephone" value={phone} onChange={handleChangeInput} />
+          <input className="p-text" type="text" placeholder="Téléphone" name="phone" value={phone} onChange={handleChangeInput} />
         </div>
         
         <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Confirmer' : 'Envoi en cours...'}</button>
