@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Particles from 'react-particles-js/umd/particles';
 
 import { urlFor } from '../lib/client';
@@ -36,7 +35,7 @@ const HeroBanner = ({ heroBanner }) => {
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
         <p className="beats-solo">{heroBanner.smallText}</p>
-        <img src={urlFor(heroBanner.image)} alt="headphones" className="hero-banner-image" />
+        <img src="./bg.jpeg" alt="headphones" className="hero-banner-image" />
         
         <div>
           
