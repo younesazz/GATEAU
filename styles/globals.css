@@ -140,9 +140,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./bg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -150,7 +148,7 @@ width: 100%;
   width: 100%;
   margin-left: 15px;
   margin-top: 15px;
-
+  
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -182,12 +180,19 @@ width: 100%;
   text-transform: uppercase;
 }
 .hero-banner-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
   position: absolute;
+  height: 500px;
+  line-height: 0.9; 
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: -999;
   top: 0%;
-  right:20%;
-  width: 450px;
-  height: 450px;
-  z-index: -89988;
+  left: 0%;
 }
 
 
@@ -199,7 +204,7 @@ width: 300px;
 line-height: 1.3;
 display: flex;
 flex-direction: column;
- color: #324d67;
+ color: #04b1e6b6;
 }
 .desc p{
   color: #ffffff;
@@ -660,12 +665,14 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
+    right: 2%;
+
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    
   }
   .footer-banner-container{
     height: 560px;
@@ -752,7 +759,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-    padding:15px;
+    padding:30px;
   }
   .cart-heading{
     margin-top: 35px;
