@@ -35,7 +35,6 @@ const HeroBanner = ({ heroBanner }) => {
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
         <p className="beats-solo">{heroBanner.smallText}</p>
-        <img src="./footer-bg.jpeg" alt="headphones" className="hero-banner-image" />
         
         <div>
           
